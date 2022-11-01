@@ -7,11 +7,9 @@ int fib(int x) {
       return(fib(x-1)+fib(x-2));
    }
 }
+
 int main() {
-   int x , i=0;
-   cout << "Enter the number of terms of series : ";
-   cin >> x;
-   cout << "Fibonnaci Series : ";
+   int x = 12 , i=0;
    while(i < x) {
       cout << " " << fib(i);
       i++;
