@@ -8,13 +8,10 @@ void fib(int num) {
       x = y;
       y = z;
    }
+
 }
 int main() {
-   int num;
-   cout << "Enter the number : ";
-   cin >> num;
-   cout << "
-The fibonacci series : " ;
-   fib(num);
+   int num= 12;
+cout << "The fibonacci series: ", fib(num);
    return 0;
 }
